@@ -8,6 +8,8 @@ body{
 header{
 	width: 100%;
 	display: flex;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 50px;
 }
 a{
 	text-decoration: none;
@@ -53,7 +55,7 @@ a{
 	font-size: 32px;
 	line-height: 100%;
 
-	color: #2900FF;
+	color: #3A3B3F;
 }
 .header-container-right_section{
 	margin-left: auto;
@@ -335,8 +337,10 @@ label{
 	color: #000000;
 }
 .adv-learn-right{
+	width: 1250px;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 
 }
 .adv-learn-span{
@@ -354,7 +358,7 @@ label{
 	margin-bottom: 35px;
 }
 .card-text{
-	width: 276px;
+	width: 400px;
 	height: 76px;
 	left: 687px;
 	top: 1134px;
@@ -383,7 +387,6 @@ label{
 	background: rgba(0, 147, 220, 0.6);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 16px;
-	margin-left: 15px;
 
 	align-items: center;
 }
@@ -593,6 +596,14 @@ color: rgba(0, 0, 0, 0.6);
 	justify-content: space-between;
     margin-top: 115px;
 }
+.mobility-right{
+	margin-top: 110px;
+}
+.mobility-left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .mobility-left-top-1{
 	width: 555px;
 	height: 112px;
@@ -605,7 +616,7 @@ color: rgba(0, 0, 0, 0.6);
 	line-height: 138.9%;
 }
 .mobility-left-top-2{
-	width: 555px;
+	width: 596px;
 	height: 76px;
 	left: 300px;
 	top: 2690px;
@@ -629,7 +640,7 @@ color: rgba(0, 0, 0, 0.6);
 	align-items: center;
 	width: 432px;
 	height: 84px;
-	background: #0093DC;
+	background: #A0A0A0;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
 	border-radius: 55px;
 }
@@ -694,10 +705,31 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 }
-.footer-logo{
+.footer-cont-1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	margin-top: 50px;
-	margin-right: auto;
 	margin-bottom: 30px;
+}
+.footer-cont-1-text{
+	width: 146px;
+	height: 32px; 
+
+	font-family: 'Prompt';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 100%;
+	/* identical to box height, or 32px */
+
+
+	color: #3A3B3F;
+}
+.footer-logo{
+	margin-right: 15px;
+	width: 40px;
+    height: 32px;
 }
 .footer-table{
 	display: flex;
