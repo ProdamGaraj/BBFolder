@@ -32,25 +32,53 @@
 				<button type="button" id="reg-block-reg" class="reg-block-reg">Регистрация</button>
 				<button type="button" id="reg-block-log" class="reg-block-log">Вход</button>
 			</div>	
-			<form id="reg-form">
-			  <div class="reg-container">
+			<form id="log-form" class="log-block-form">
+			  <div class="log-container">
 			    <label for="email">Логин</label>
-			    <input type="text" placeholder="Enter Email" name="email" required>
+			    <input class="reg-log-input" type="text" placeholder="Enter Email" name="email" required>
 
 			    <label for="psw">Пароль</label>
-			    <input type="password" placeholder="Enter Password" name="psw" required>
+			    <input class="reg-log-input" type="password" placeholder="Enter Password" name="psw" required>
+
+			    <button type="submit" class="registerbtn">Login</button>
+			  </div>
+			</form>
+			<form id="reg-form" class="reg-block-form">
+			  <div class="reg-container">
+			    <label for="last_name">Фамилия</label>
+			    <input class="reg-log-input" type="text" placeholder="Введите фамилию" name="email" required>
+
+			    <label for="Name">Имя</label>
+			    <input class="reg-log-input" type="text" placeholder="Введите имя" name="psw" required>
+
+			    <label for="third_name">Отчество</label>
+			    <input class="reg-log-input" type="text" placeholder="Введите отчество" name="psw" required>
+
+			    <div class="for-check-box">
+				    <label for="third_name">Если вы являетесь сотрудником банка, укажите банк <br> (необязательное поле)</label>
+				    <input class="bank-empl" type="checkbox">			    
+				</div>
+				  <select id="standard-select">
+				    <option value="Option 1">Option 1</option>
+				    <option value="Option 2">Option 2</option>
+				    <option value="Option 3">Option 3</option>
+				    <option value="Option 4">Option 4</option>
+				    <option value="Option 5">Option 5</option>
+				    <option value="Option length">Option that has too long of a value to fit</option>
+				  </select>
 
 			    <button type="submit" class="registerbtn">Register</button>
 			  </div>
 			</form>
 		</div>
+
+
 	</div>
 	<div class="block-learn-in">
 		<img class="block-learn-in_left-section" src="pict\guy3.png">
 		<div class="block-learn-in_right-section">
 			<div class="block-learn-in_right-section-top">
-				<div class="block-learn-in_right-section-top-top">Учись</div>
-				<div class="block-learn-in_right-section-top-top">в BilimBank</div>
+				<div class="block-learn-in_right-section-top-top">Учись <br> в BilimBank</div>
 				<div class="block-learn-in_right-section-top-bot">Увеличивай свой профессиональный капитал</div>
 			</div>
 			<div class="block-learn-in_right-section-bot"></div>
@@ -245,6 +273,11 @@
 				}
 			}
 
+		let logbut = document.getElementById("reg-block-log"),
+			log = document.getElementById("log-form")
+			if(logbut.clicked == true){
+				log.style.display = "block"
+			}
 	</script>
 </body>
 </html>

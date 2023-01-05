@@ -136,6 +136,18 @@ a{
 	display: flex;
 	flex-direction: column;
 	width: 670px;
+	height: 1000px;
+	background-color: white;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+.login-block{
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 670px;
 	height: 370px;
 	background-color: white;
 
@@ -143,7 +155,8 @@ a{
 	margin-right: auto;
 	margin-top: 100px;
 }
-input{
+
+.reg-log-input{
 	background: #FDFDFD;
 	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
@@ -151,6 +164,29 @@ input{
 	height: 40px;
 	color: blue;
 	margin-top: 5px;
+}
+.bank-empl{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	margin-left: 20px;
+}
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+.for-check-box{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
 }
 .reg-block-reg{
 	display: flex;
@@ -168,12 +204,25 @@ input{
 	justify-content: center;
 	width: 50%;
 }
+.log-container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+}
+.log-block-form{
+	display: block;
+}
 .reg-container{
 	margin-right: auto;
 	margin-left: auto;
 	width: 550px;
 	display: flex;
 	flex-direction: column;
+}
+.reg-block-form{
+	display: block;
 }
 label{
 	margin-top: 25px;
@@ -245,7 +294,8 @@ label{
 	font-weight: 700;
 	font-size: 80px;
 
-	color: #000000;
+	color: #333333;
+	margin-bottom: 10px;
 }
 .block-learn-in_right-section-top-bot{
 	height: 33px;
@@ -257,6 +307,8 @@ label{
 	line-height: 33px;
 
 	color: #000000;
+
+	margin-left: 30px;
 }
 .adv-learn{
 	margin-top: 100px;
