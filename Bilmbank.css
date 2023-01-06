@@ -224,7 +224,7 @@ select {
 	flex-direction: column;
 }
 .reg-block-form{
-	display: block;
+	display: none;
 }
 label{
 	margin-top: 25px;

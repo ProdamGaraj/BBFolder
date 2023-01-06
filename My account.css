@@ -186,6 +186,10 @@ footer{
 	flex-direction: row;
 	margin-left: 40px;
 }
+.media-name-1{
+	display: flex;
+	flex-direction: row;
+}
 .media-name-svg{
 
 
@@ -193,7 +197,7 @@ footer{
 .media-block{
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .media-name-name{
 	margin-left: 8px;
@@ -209,6 +213,9 @@ footer{
 .media-data{
 	width: 876px;
 	height: 622px;
+}
+.media_data{
+	display: none;
 }
 .ur_account_data-form{
 	display: flex;
@@ -281,6 +288,144 @@ footer{
 	margin-top: 300px;
 }
 .main-container{
-	margin-bottom: 170px;
-	margin-left: ;
+	height: 850px;
+}
+
+scroll-container{
+	display: flex;
+	flex-direction: column;
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+   height: 750px;
+}
+scroll-page{
+	display: flex;
+	flex-direction: row;
+	width: 877px;
+   height: 150px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-bottom: 20px;
+   border-radius: 10px 0px 0px 10px;
+}
+.cours-scroll{
+	border-radius: 10px 35px 35px 10px / 10px 117px 117px 10px;
+}
+.cours-text{
+	display: flex;
+	flex-direction: column;
+	margin-left: 18px;
+	margin-top: 20px;
+}
+.cours-text-top{
+   width: 420px;
+
+   font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 108.5%;
+}
+.cours-text-bot{
+   width: 364px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+
+	margin-top: 10px;
+}
+.cours-info-block{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.cours-info-block-hours-1{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-top: 15px;
+}
+.cours-info-block-hours-2{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-top: 5px;
+}
+.cours-info-block-button{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 50px;
+	gap: 10px;
+
+	background: #0093DC;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 9px;
+
+	border: none;
+	color: white;
+	width: 226px;
+	height: 38px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+
+	margin-top: auto;
+	margin-bottom: 10px;
+}
+.cours-info-block-src{
+	margin-top: 10px;
+}
+.mine_course-sort{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: #F9F9F9;
+	width: 876px;
+	height: 36px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 27px;
+}
+.mine_course-sort-element-1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 12px;
+}
+.mine_course-sort-element-2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 40px;
+}
+.mine_course-sort-element-3{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 40px;
+}
+.mine_course-sort-element-4{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: auto;
+	margin-right: 10px;
+}
+.mine_course-sort-svg-icon{
+	margin-right: 18px;
 }
