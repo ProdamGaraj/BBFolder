@@ -406,18 +406,21 @@ scroll-page{
 	flex-direction: row;
 	align-items: center;
 	margin-left: 12px;
+	color: #666666;
 }
 .mine_course-sort-element-2{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-left: 40px;
+	color: #666666;
 }
 .mine_course-sort-element-3{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-left: 40px;
+	color: #666666;
 }
 .mine_course-sort-element-4{
 	display: flex;
@@ -425,6 +428,7 @@ scroll-page{
 	align-items: center;
 	margin-left: auto;
 	margin-right: 10px;
+	color: #666666;
 }
 .mine_course-sort-svg-icon{
 	margin-right: 18px;
