@@ -318,8 +318,24 @@ label{
 	margin-right: auto;
 	margin-left: auto;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	margin-bottom: 100px;
+}
+.adv-top{
+	width: 507px;
+	height: 40px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 138.9%;
+	/* or 50px */
+
+	letter-spacing: 0.02em;
+
+	color: #000000;
+	margin-bottom: 40px;
 }
 .adv-learn-left{
 	width: 347px;
@@ -455,11 +471,38 @@ color: rgba(0, 0, 0, 0.6);
 	order: 0;
 	flex-grow: 0;
 }
-.cat-circle{
+.cat-circle-1{
 	width: 15px;
 	height: 30px;
 	border-radius: 100% 0 0 100% / 50% 0 0 50%;
-	background: blue;
+	background: #0093DC;
+
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.cat-circle-2{
+	width: 15px;
+	height: 30px;
+	border-radius: 100% 0 0 100% / 50% 0 0 50%;
+	background: #004186;
+
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.cat-circle-3{
+	width: 15px;
+	height: 30px;
+	border-radius: 100% 0 0 100% / 50% 0 0 50%;
+	background: linear-gradient(0deg, rgba(2, 197, 157, 0.8), rgba(2, 197, 157, 0.8)), #FFFFFF;
+
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.cat-circle-4{
+	width: 15px;
+	height: 30px;
+	border-radius: 100% 0 0 100% / 50% 0 0 50%;
+	background: #0077B9;
 
 	margin-top: auto;
 	margin-bottom: auto;
@@ -526,7 +569,7 @@ color: rgba(0, 0, 0, 0.6);
 	display: flex;
 	overflow: hidden;
 }
-.popular-bot-block-deco{
+.popular-bot-block-deco-1{
 	position: absolute;
 	left: -43%;
 	width: 770px;
@@ -538,9 +581,31 @@ color: rgba(0, 0, 0, 0.6);
 	background: #004186;
     backdrop-filter: blur(3px);
 }
-.popular-bot-block-deco:hover{
+.popular-bot-block-deco-2{
+	position: absolute;
+	left: -43%;
+	width: 770px;
+	height: 260px;
+	top: 64.39%;
+	bottom: -38.18%;
+	border-radius: 50%;
+
 	background: #00AFB5;
+    backdrop-filter: blur(3px);
 }
+.popular-bot-block-deco-3{
+	position: absolute;
+	left: -43%;
+	width: 770px;
+	height: 260px;
+	top: 64.39%;
+	bottom: -38.18%;
+	border-radius: 50%;
+
+	background: #0093DC;
+    backdrop-filter: blur(3px);
+}
+
 .popular-bot-block-deco-title{
 	font-family: 'Raleway';
 	font-style: normal;
