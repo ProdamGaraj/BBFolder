@@ -149,7 +149,7 @@ li{
 .main-container-list-result{
 	margin-left: 32px;
 	height: 100%;
-	display: flex;
+	display: none;
 
 	flex-direction: column;
 	align-items: center;
@@ -174,7 +174,7 @@ li{
 	margin-left: 32px;
 	height: 100%;
 
-	display: none;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
