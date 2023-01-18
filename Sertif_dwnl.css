@@ -69,6 +69,8 @@ footer{
 
 	height: 64px;
 	background: #FAFAFA;
+
+	margin-top: auto;
 }
 .footer-container{
 	width: 1320px;
@@ -98,9 +100,9 @@ footer{
 }
 .main-container{
 	margin-top: 50px;
-    width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
+   width: 1320px;
+   margin-left: auto;
+   margin-right: auto;
 	display: flex;
 	flex-direction: row;
 
@@ -109,6 +111,7 @@ footer{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 19px;
+	margin-bottom: 30px;
 }
 .account-data{
 	display: flex;
@@ -209,7 +212,7 @@ footer{
 	line-height: 19px;
 	}
 .my_acc-tab_menu{
-	margin-left: 24px;
+	margin-left: 60px;
 }
 .media-data{
 	width: 876px;
@@ -287,9 +290,6 @@ footer{
 	text-align: center;
 
 	margin-top: 300px;
-}
-.main-container{
-	height: 850px;
 }
 
 scroll-container{
@@ -433,4 +433,61 @@ scroll-page{
 }
 .mine_course-sort-svg-icon{
 	margin-right: 18px;
+}
+.sertif_blank{
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 55px;
+	height: 460px;
+	margin-bottom: 20px;
+}
+.sertif_dwnl_img{
+	width: 256px;
+   height: 362px;
+   margin-top: 26px;
+   margin-bottom: 26px;
+}
+.sertif_dwnl-block{
+	display: flex;
+	flex-direction: column;
+}
+.sertif_dwnl{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	flex-wrap: wrap;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 108.5%;
+
+	margin-top: 40px;
+
+	width: 1000px;
+}
+.sertif-dwnl-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 172px;
+	height: 27px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 108.5%;
+
+	/* primary_ver_1 */
+
+	background: #0093DC;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 55px;
+
+	margin-left: auto;
+	margin-right: auto;
 }

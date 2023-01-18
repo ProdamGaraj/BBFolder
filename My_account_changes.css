@@ -198,7 +198,7 @@ footer{
 .media-block{
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .media-name-name{
 	margin-left: 8px;
@@ -209,14 +209,14 @@ footer{
 	line-height: 19px;
 	}
 .my_acc-tab_menu{
-	margin-left: 24px;
+	margin-left: 64px;
 }
 .media-data{
 	width: 876px;
 	height: 622px;
 }
 .media_data{
-	display: none;
+	display: flex;
 }
 .ur_account_data-form{
 	display: flex;
@@ -254,6 +254,20 @@ footer{
 	background: #E2E2E2;
 	border-radius: 8px;
 	border-width: 0;
+}
+.lb_inpt_acc-inpt-as{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 14px;
+	gap: 10px;
+
+	width: 654px;
+	height: 141px;
+
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+
 }
 .registerbtn{
 	display: flex;
